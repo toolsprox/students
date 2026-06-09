@@ -41,7 +41,7 @@ export default function StudentsPage() {
           </h1>
           
           <p className="text-xl text-black/60 mb-10 leading-relaxed max-w-lg">
-            The London branch of Masakali offers a vibrant dining experience where authentic Indian flavours meet contemporary culinary creativity. Show your valid student ID and unlock an exclusive 15% discount.
+            Searching for a cheap indian restaurant london or the best indian restaurant near me? Masakali offers a vibrant dining experience where authentic halal food near me meets student budgets. Show your valid student ID and unlock an exclusive 15% discount.
           </p>
           
           <div className="flex gap-6 mt-4">
@@ -89,9 +89,9 @@ export default function StudentsPage() {
           <div className="absolute top-1/2 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-black/10 to-transparent -z-10 hidden md:block"></div>
           
           {[
-            { icon: Star, title: "Top Rated for Groups", desc: "Spacious tables and a vibrant atmosphere, perfect for societies and large friend groups." },
-            { icon: MapPin, title: "Central Location", desc: "Located right near major university campuses in Kings Cross and Euston. Easy to get to." },
-            { icon: Clock, title: "Late Night Eats", desc: "Open late Thursday through Sunday to satisfy those post-library or pre-night-out cravings." }
+            { icon: Star, title: "Top Rated for Groups", desc: "Spacious tables and a vibrant atmosphere, perfect for societies looking for a student restaurant london." },
+            { icon: MapPin, title: "Central Location", desc: "Located right near major university campuses in Kings Cross and Euston. The perfect spot for lunch near me london." },
+            { icon: Clock, title: "Affordable Indian Food", desc: "Open late to satisfy those cravings for cheap indian food london or an affordable indian restaurant london." }
           ].map((feature, i) => (
             <motion.div 
               key={i}
@@ -139,7 +139,7 @@ export default function StudentsPage() {
       {/* --- FINAL CTA --- */}
       <section className="py-24 max-w-4xl mx-auto px-4 text-center relative z-10">
         <h2 className="text-4xl md:text-6xl font-serif font-bold mb-6 text-[#0F0F0F]">Grab a Table Tonight</h2>
-        <p className="text-xl text-black/60 mb-10">Don't miss out on London's best Indian dining at student-friendly prices.</p>
+        <p className="text-xl text-black/60 mb-10">Don't miss out on London's best Indian dining. The perfect place when searching for "indian food near me".</p>
         <Link href="/reserve?segment=student" className="inline-flex items-center bg-[#0F0F0F] text-white font-bold text-lg px-12 py-5 rounded-2xl hover:bg-[#7CFF01] hover:text-black transition-all shadow-xl group">
           Book Now & Save 15% <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
         </Link>
