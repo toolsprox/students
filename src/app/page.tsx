@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -45,7 +45,7 @@ export default function StudentsPage() {
           </p>
           
           <div className="flex gap-6 mt-4">
-            <PulseCTA href="/reserve?segment=student" className="group relative bg-[#0F0F0F] text-white font-bold px-10 py-5 rounded-2xl overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.1)] hover:shadow-[0_20px_40px_rgba(124,255,1,0.3)] transition-all">
+            <PulseCTA href="https://www.opentable.co.uk/restaurant/profile/361344" target="_blank" rel="noopener noreferrer" className="group relative bg-[#0F0F0F] text-white font-bold px-10 py-5 rounded-2xl overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.1)] hover:shadow-[0_20px_40px_rgba(124,255,1,0.3)] transition-all">
               <span className="relative z-10 flex items-center">
                 Claim 15% Off Table <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </span>
@@ -140,10 +140,11 @@ export default function StudentsPage() {
       <section className="py-24 max-w-4xl mx-auto px-4 text-center relative z-10">
         <h2 className="text-4xl md:text-6xl font-serif font-bold mb-6 text-[#0F0F0F]">Grab a Table Tonight</h2>
         <p className="text-xl text-black/60 mb-10">Don't miss out on London's best Indian dining. The perfect place when searching for "indian food near me".</p>
-        <Link href="/reserve?segment=student" className="inline-flex items-center bg-[#0F0F0F] text-white font-bold text-lg px-12 py-5 rounded-2xl hover:bg-[#7CFF01] hover:text-black transition-all shadow-xl group">
+        <Link href="https://www.opentable.co.uk/restaurant/profile/361344" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-[#0F0F0F] text-white font-bold text-lg px-12 py-5 rounded-2xl hover:bg-[#7CFF01] hover:text-black transition-all shadow-xl group">
           Book Now & Save 15% <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
         </Link>
       </section>
     </main>
   )
 }
+
