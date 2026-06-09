@@ -41,7 +41,7 @@ export default function StudentsPage() {
           </h1>
           
           <p className="text-xl text-black/60 mb-10 leading-relaxed max-w-lg">
-            Searching for a cheap indian restaurant london or the best indian restaurant near me? Masakali offers a vibrant dining experience where authentic halal food near me meets student budgets. Show your valid student ID and unlock an exclusive 15% discount.
+            Searching for a cheap indian restaurant london or the best indian restaurant near me? Masakali offers a vibrant dining experience where authentic flavours meet student budgets. Show your valid student ID and unlock an exclusive 15% discount.
           </p>
           
           <div className="flex gap-6 mt-4">
