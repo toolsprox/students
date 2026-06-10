@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -160,7 +160,7 @@ export default function AIConcierge() {
             {/* Direct Booking CTA (Always visible when AI mentions booking) */}
             {messages.length > 1 && !isTyping && (
                <div className="px-4 py-2 bg-[#FDFBF7]">
-                 <a href="https://masakali.co.uk/bookings/?utm_source=google&utm_medium=cpc&utm_campaign=family-celebrations&utm_content=search" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)} className="w-full bg-[#7CFF01] text-black font-bold py-3 rounded-xl flex justify-center items-center gap-2 hover:bg-[#68d600] transition-colors text-sm shadow-sm">
+                 <a href="https://www.opentable.co.uk/r/masakali-restaurant-euston-london?corrid=41f8fc28-8609-4b5f-8750-347046547a0c&avt=eyJ2IjozLCJtIjowLCJwIjowLCJzIjowLCJuIjowfQ&p=2&sd=2026-06-09T19%3A00%3A00" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)} className="w-full bg-[#7CFF01] text-black font-bold py-3 rounded-xl flex justify-center items-center gap-2 hover:bg-[#68d600] transition-colors text-sm shadow-sm">
                     <CalendarDays className="w-4 h-4"/> Book a Table Now
                  </a>
                </div>
